@@ -1,1 +1,0 @@
-import{_ as i,o as a,c as h,ag as t}from"./chunks/framework.BZohXCq9.js";const g=JSON.parse('{"title":"数组工具","description":"","frontmatter":{},"headers":[],"relativePath":"api/array.md","filePath":"api/array.md"}'),k={name:"api/array.md"};function n(p,s,l,e,r,E){return a(),h("div",null,[...s[0]||(s[0]=[t("",72)])])}const y=i(k,[["render",n]]);export{g as __pageData,y as default};
