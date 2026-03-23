@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'ah-util',
   description: '轻量级前端工具库',
   lang: 'zh-CN',
+  base: '/ah-util/',
   cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg' }],
