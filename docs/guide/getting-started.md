@@ -10,19 +10,19 @@
 ### npm
 
 ```bash
-npm install ah-util
+npm install ah-utils-tools
 ```
 
 ### yarn
 
 ```bash
-yarn add ah-util
+yarn add ah-utils-tools
 ```
 
 ### pnpm
 
 ```bash
-pnpm add ah-util
+pnpm add ah-utils-tools
 ```
 
 ### CDN
@@ -31,17 +31,17 @@ pnpm add ah-util
 
 ```html
 <!-- UMD 格式 -->
-<script src="https://unpkg.com/ah-util/dist/index.umd.js"></script>
+<script src="https://unpkg.com/ah-utils-tools/dist/index.umd.js"></script>
 
 <!-- ESM 格式 -->
 <script type="module">
-  import { isString } from 'https://unpkg.com/ah-util/dist/index.esm.js';
+  import { isString } from 'https://unpkg.com/ah-utils-tools/dist/index.esm.js';
 </script>
 ```
 
 ## TypeScript 配置
 
-ah-util 提供完整的类型定义，无需额外安装 `@types` 包。
+ah-utils-tools 提供完整的类型定义，无需额外安装 `@types` 包。
 
 确保你的 `tsconfig.json` 包含以下配置：
 
@@ -61,10 +61,10 @@ ah-util 提供完整的类型定义，无需额外安装 `@types` 包。
 
 ```html
 <!-- jsDelivr -->
-<script src="https://cdn.jsdelivr.net/npm/ah-util/dist/index.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ah-utils-tools/dist/index.umd.js"></script>
 
 <!-- cdnjs -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ah-util/1.0.0/index.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ah-utils-tools/1.0.0/index.umd.js"></script>
 ```
 
 ## 版本说明

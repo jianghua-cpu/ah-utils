@@ -5,19 +5,19 @@
 使用 npm 安装：
 
 ```bash
-npm install ah-util
+npm install ah-utils-tools
 ```
 
 使用 yarn 安装：
 
 ```bash
-yarn add ah-util
+yarn add ah-utils-tools
 ```
 
 使用 pnpm 安装：
 
 ```bash
-pnpm add ah-util
+pnpm add ah-utils-tools
 ```
 
 ## 基础使用
@@ -25,7 +25,7 @@ pnpm add ah-util
 ### ESM 导入（推荐）
 
 ```typescript
-import { isString, trim } from 'ah-util';
+import { isString, trim } from 'ah-utils-tools';
 
 // 类型判断
 isString('hello'); // true
@@ -38,13 +38,13 @@ trim('  hello  '); // 'hello'
 ### CJS 导入
 
 ```typescript
-const { isString, trim } = require('ah-util');
+const { isString, trim } = require('ah-utils-tools');
 ```
 
 ### 浏览器直接引入
 
 ```html
-<script src="https://unpkg.com/ah-util/dist/index.umd.js"></script>
+<script src="https://unpkg.com/ah-utils-tools/dist/index.umd.js"></script>
 <script>
   const { isString, trim } = AHUtil;
 </script>
@@ -55,9 +55,9 @@ const { isString, trim } = require('ah-util');
 为了更好的 Tree-shaking 效果，建议按需导入：
 
 ```typescript
-import { isString } from 'ah-util/type';
-import { trim } from 'ah-util/string';
-import { unique } from 'ah-util/array';
+import { isString } from 'ah-utils-tools/type';
+import { trim } from 'ah-utils-tools/string';
+import { unique } from 'ah-utils-tools/array';
 ```
 
 ## 下一步

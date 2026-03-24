@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "ah-util"
+  name: "ah-utils-tools"
   text: "轻量级前端工具库"
   tagline: "简洁、高效、易用 - 为现代前端开发而生的工具函数库"
   image:
     src: /logo.svg
-    alt: ah-util
+    alt: ah-utils-tools
   actions:
     - theme: brand
       text: 快速开始

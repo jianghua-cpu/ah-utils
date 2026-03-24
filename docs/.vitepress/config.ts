@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'ah-util',
+  title: 'ah-utils-tools',
   description: '轻量级前端工具库',
   lang: 'zh-CN',
-  base: '/ah-utils/',
+  base: '/ah-utils-toolss/',
   cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg' }],
@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'ah-util',
+    siteTitle: 'ah-utils-tools',
     nav: [
       { text: '指南', link: '/guide/' },
       { text: 'API', link: '/api/type' },
@@ -43,14 +43,14 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username/ah-util' },
+      { icon: 'github', link: 'https://github.com/your-username/ah-utils-tools' },
     ],
     footer: {
       message: '基于 MIT 许可证发布。',
       copyright: 'Copyright © 2024-present',
     },
     editLink: {
-      pattern: 'https://github.com/your-username/ah-util/edit/main/docs/:path',
+      pattern: 'https://github.com/your-username/ah-utils-tools/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
     search: {

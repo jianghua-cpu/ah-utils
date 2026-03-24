@@ -1,5 +1,5 @@
 {
-  "name": "ah-util",
+  "name": "ah-utils-tools",
   "version": "1.0.0",
   "type": "module",
   "description": "轻量级前端工具库",
@@ -31,7 +31,7 @@
     "frontend",
     "toolkit"
   ],
-  "author": "",
+  "author": "jianghua",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",

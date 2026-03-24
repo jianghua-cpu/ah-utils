@@ -22,7 +22,7 @@ declare function isFunction(value: unknown): value is Function;
  */
 declare function isArray(value: unknown): value is Array<unknown>;
 /**
- * 判断是否为对象（非 null 的对象）
+ * 判断是否为纯对象（仅指 {} 或 Object.create(Object.prototype) 创建的普通对象，不包含数组、函数、Object.create(null) 等）
  */
 declare function isObject(value: unknown): value is Record<string, unknown>;
 /**

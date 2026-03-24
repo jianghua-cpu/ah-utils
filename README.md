@@ -1,4 +1,4 @@
-# uh-util
+# ah-utils-tools
 
 轻量级前端工具库，支持 ESM、CJS、UMD 三种模块格式，可通过 npm 安装或 script 标签直接引入。
 
@@ -14,26 +14,26 @@
 ### npm 安装
 
 ```bash
-npm install uh-util
+npm install ah-utils-tools
 ```
 
 ### yarn 安装
 
 ```bash
-yarn add uh-util
+yarn add ah-utils-tools
 ```
 
 ### pnpm 安装
 
 ```bash
-pnpm add uh-util
+pnpm add ah-utils-tools
 ```
 
 ### CDN 引入（浏览器）
 
 ```html
 <!-- 引入 UMD 版本，通过 window.UhUtil 访问 -->
-<script src="https://unpkg.com/uh-util/dist/index.umd.js"></script>
+<script src="https://unpkg.com/ah-utils-tools/dist/index.umd.js"></script>
 ```
 
 ## 使用方式
@@ -41,13 +41,13 @@ pnpm add uh-util
 ### ES Module（推荐）
 
 ```javascript
-import { isString, trim, debounce } from 'uh-util';
+import { isString, trim, debounce } from 'ah-utils-tools';
 ```
 
 ### CommonJS
 
 ```javascript
-const { isString, trim, debounce } = require('uh-util');
+const { isString, trim, debounce } = require('ah-utils-tools');
 ```
 
 ### 浏览器全局变量
@@ -152,7 +152,7 @@ UhUtil.debounce(fn, 300);
 ### 类型判断
 
 ```javascript
-import { isString, isArray, isNil } from 'uh-util';
+import { isString, isArray, isNil } from 'ah-utils-tools';
 
 isString('hello');    // true
 isString(123);        // false
@@ -164,7 +164,7 @@ isNil(undefined);     // true
 ### 字符串处理
 
 ```javascript
-import { trim, camelToKebab, truncate } from 'uh-util';
+import { trim, camelToKebab, truncate } from 'ah-utils-tools';
 
 trim('  hello  ');           // 'hello'
 camelToKebab('helloWorld');  // 'hello-world'
@@ -174,7 +174,7 @@ truncate('这是一个很长的字符串', 10); // '这是一个很长的...'
 ### 数组操作
 
 ```javascript
-import { unique, chunk, intersection } from 'uh-util';
+import { unique, chunk, intersection } from 'ah-utils-tools';
 
 unique([1, 2, 2, 3]);              // [1, 2, 3]
 chunk([1, 2, 3, 4, 5], 2);         // [[1, 2], [3, 4], [5]]
@@ -184,7 +184,7 @@ intersection([1, 2, 3], [2, 3]);  // [2, 3]
 ### 对象操作
 
 ```javascript
-import { deepClone, get, set } from 'uh-util';
+import { deepClone, get, set } from 'ah-utils-tools';
 
 const obj = { user: { profile: { name: '张三' } } };
 get(obj, 'user.profile.name');     // '张三'
@@ -195,7 +195,7 @@ deepClone(obj);                    // 深拷贝
 ### 函数工具
 
 ```javascript
-import { debounce, throttle, once } from 'uh-util';
+import { debounce, throttle, once } from 'ah-utils-tools';
 
 // 防抖：最后一次点击后 300ms 执行
 const debouncedFn = debounce(() => {
@@ -216,7 +216,7 @@ const onceFn = once(() => {
 ### 本地存储
 
 ```javascript
-import { storage } from 'uh-util';
+import { storage } from 'ah-utils-tools';
 
 // 存储数据（自动 JSON 序列化）
 storage.set('user', { name: '张三', age: 18 });
@@ -241,7 +241,7 @@ storage.clear();
 
 ## 文档
 
-在线文档：https://your-username.github.io/ah-util
+在线文档：https://your-username.github.io/ah-utils-tools
 
 本地开发文档：
 
